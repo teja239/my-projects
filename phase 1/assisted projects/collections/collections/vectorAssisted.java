@@ -1,5 +1,5 @@
 package collections;
-import java.util.Vector;
+import java.util.*;
 public class vectorAssisted {
 
 	public static void main(String[] args) {
