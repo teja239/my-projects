@@ -1,0 +1,28 @@
+Êþº¾   4 a   'com/teja/problem5_1/HandlingwithString   java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this )Lcom/madhu/problem5_1/HandlingwithString; main ([Ljava/lang/String;)V  JAVA is Simple	     java/lang/System   out Ljava/io/PrintStream;
+     java/lang/String   
+toUpperCase ()Ljava/lang/String;
+  !    java/io/PrintStream " #  println (Ljava/lang/String;)V
+  % &  
+toLowerCase ( \s
+  * + , split '(Ljava/lang/String;)[Ljava/lang/String;
+  . / 0 charAt (I)C
+  2 3 4 print (C)V 6  
+  8 3 #  : java/lang/StringBuilder
+ 9 	
+ 9 = > ? append -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ 9 A B C  reverse ()Ljava/lang/StringBuilder;
+  E " F (Ljava/lang/Object;)V H JavaisSimple
+  J K L  replace D(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+  N O P length ()I
+  R " S (I)V args [Ljava/lang/String; str Ljava/lang/String; words w words1 sb Ljava/lang/StringBuilder; 
+StackMapTable  U 
+SourceFile HandlingwithString.java !                /     *· ±    
+        
+         
+   	       Ÿ     ´L² +¶ ¶ ² +¶ $¶ +'¶ )M,Y:¾66§ 2N² -¶ -¶ 1² 5¶ 7„¡ÿà² 5¶ +'¶ )N-Y: ¾66§  2:² ¶ „¡ÿê» 9Y· ;:+¶ <W¶ @W² ¶ D++G¶ IW² +¶ M¶ Q±    
+   R       
+ 	  
+   1 
+ <  D  N  V  ]  q  y  ƒ  Œ  “  ™  ¡  ©  ³  
+   H     ´ T U    ± V W   – X U  1  Y W  ] W Z U  q  Y W  Œ ( [ \  ]   3 ÿ +    ^    ^   ^  ÿ "   ^    ^  ^   ^    _    `

@@ -1,0 +1,13 @@
+Êþº¾   4 -   com/teja/problem8_1/Printer   java/lang/Object   java/lang/Runnable  storage Lcom/madhu/problem8_1/Storage; <init> !(Lcom/madhu/problem8_1/Storage;)V Code
+  
+ 	  ()V   com/madhu/problem8_1/Storage
+   	 
+	      LineNumberTable LocalVariableTable this Lcom/madhu/problem8_1/Printer; s run	     java/lang/System    out Ljava/io/PrintStream;
+  " # $ GetX ()I
+ & (  ' java/io/PrintStream ) *  println (I)V 
+SourceFile ThreadCounter.java                 	 
+  
+   M     *· *» Y+· µ ±                                       
+   <     ² *´ ¶ !¶ %±       
+    & 
+ (              +    ,

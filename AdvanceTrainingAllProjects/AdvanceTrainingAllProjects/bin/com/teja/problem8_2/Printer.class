@@ -1,0 +1,29 @@
+Êþº¾   4 _   com/teja/problem8_2/Printer   java/lang/Object   java/lang/Runnable st Lcom/madhu/problem8_2/Storage; <init> !(Lcom/madhu/problem8_2/Storage;)V Code
+  
+ 	  ()V	      LineNumberTable LocalVariableTable this Lcom/madhu/problem8_2/Printer; run
+     wait
+     com/madhu/problem8_2/Storage   	isPrinted ()Z	   "  ! java/lang/System # $ out Ljava/io/PrintStream;  & java/lang/StringBuilder
+ ( *  ) java/lang/Thread + , 
+currentThread ()Ljava/lang/Thread;
+ ( . / 0  getName ()Ljava/lang/String;
+ 2 4  3 java/lang/String 5 6  valueOf &(Ljava/lang/Object;)Ljava/lang/String;
+ % 8 	 9 (Ljava/lang/String;)V ;  
+ % = > ? append -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  A B C getValue ()I
+ % E > F (I)Ljava/lang/StringBuilder;
+ % H I 0 toString
+ K M  L java/io/PrintStream N 9  println
+  P Q R 
+setPrinted (Z)V
+  T U  notify  W java/lang/Exception i I 
+StackMapTable  \ java/lang/Throwable 
+SourceFile AddSynchronization.java                 	 
+  
+   F     
+*· *+µ ±              ! 	 "        
+       
+         
+       j*´ YLÂ=§ R*´ ¶ § N*´ ¶ šÿî² » %Y¸ '¶ -¸ 1· 7:¶ <*´ ¶ @¶ D¶ G¶ J*´ ¶ O*´ ¶ S„
+¡ÿ¹+Ã§ +Ã¿±     V   c f   f h f       . 
+   &   '  *  +  ( ! . I / Q 0 X ' a & i 3        j     	 X X Y  Z   $ ý   I  V û Cÿ 
+        [ú   ]    ^

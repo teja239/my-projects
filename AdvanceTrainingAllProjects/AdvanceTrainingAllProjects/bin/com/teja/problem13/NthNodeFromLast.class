@@ -1,0 +1,29 @@
+Êşº¾   4 g   #com/teja/problem13/NthNodeFromLast   java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this %Lcom/madhu/problem13/NthNodeFromLast; getNthFromLast 7(Lcom/madhu/problem13/Node;I)Lcom/madhu/problem13/Node;	     com/madhu/problem13/Node   next Lcom/madhu/problem13/Node; head k I n curr i 
+StackMapTable main ([Ljava/lang/String;)V    java/util/Scanner	 " $  # java/lang/System % & in Ljava/io/InputStream;
+  (  ) (Ljava/io/InputStream;)V	 " + , - out Ljava/io/PrintStream; / (Enter Number of Nodes in a Linked List:-
+ 1 3  2 java/io/PrintStream 4 5  println (Ljava/lang/String;)V
+  7 8 9  nextInt ()I ; Enter Nth Node:   = java/lang/StringBuilder ? Enter 
+ < A  5
+ < C D E append (I)Ljava/lang/StringBuilder; G 
+ Elements:
+ < I D J -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ < L M N toString ()Ljava/lang/String;
+  P  Q (ILcom/madhu/problem13/Node;)V
+ 1 S 4 T (I)V
+  V   X N'th node from the end is: 	  Z [  data args [Ljava/lang/String; s Ljava/util/Scanner; keys [I node  ]  a 
+SourceFile NthNodeFromLast.java !                /     *· ±    
+        
+         
+   	        È     2=*N§ 
+-´ N„-Çÿ÷¡ *N6§ 
+-´ N„d¡ÿó-°    
+   2                         ! %   0 & 
+   4    2       2     0     .             ı     ü  ú   	       º      ¸» Y² !· 'L² *.¶ 0+¶ 6=² *:¶ 0+¶ 6>² *» <Y>· @¶ BF¶ H¶ K¶ 0¼
+:6§ +¶ 6O„¡ÿñ:¾d6§ » Y.· O:„ÿœÿë¾¤ 
+² *¶ R¸ U:Æ ² *» <YW· @´ Y¶ B¶ K¶ 0±    
+   R    + 
+ ,  -  .   / % 0 @ 1 E 2 K 3 T 2 ] 5 ` 6 j 7 z 6 ‚ ; ‰ <  > ˜ @  A · C 
+   \ 	   ¸ \ ]   
+ ­ ^ _        % “    E s ` a  H     ` X    g     ˜   b      6 ÿ K   c    d  
+ÿ     c    d    ú ü &    e    f

@@ -1,0 +1,13 @@
+Êþº¾   4    com/teja/problem3_1/Flute   com/madhu/problem3_1/Instrument <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/madhu/problem3_1/Flute; Play	     java/lang/System   out Ljava/io/PrintStream;  $Flute is playing toot toot toot toot
+     java/io/PrintStream    println (Ljava/lang/String;)V 
+SourceFile 
+Sample.java                   /     *· ±    
+       
+ 
+         
+           7     	² ¶ ±    
+   
+       
+       	  
+        

@@ -1,0 +1,27 @@
+Êþº¾   4 C   com/teja/problem15/Platform   java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/madhu/problem15/Platform; findPlatform ([I[II)I
+     java/lang/Math   max (II)I arr [I dep n I 
+plat_needed result i j 
+StackMapTable   main ([Ljava/lang/String;)V	 $ &  % java/lang/System ' ( out Ljava/io/PrintStream;  * java/lang/StringBuilder , 'Minimum Number of Platforms Required = 
+ ) .  / (Ljava/lang/String;)V
+  1  
+ ) 3 4 5 append (I)Ljava/lang/StringBuilder;
+ ) 7 8 9 toString ()Ljava/lang/String;
+ ; =  < java/io/PrintStream > /  println args [Ljava/lang/String; 
+SourceFile 
+Platform.java !                /     *· ±    
+        
+         
+   	             h>6666§ Q>`6§ 5*.*.¡ *.+.¤ *.*.¡ *.+.£ „„¡ÿË¸ 6„¡ÿ¯¬    
+   6 
+   
+  
+ 
+        2  =  H  K  T  \  e  
+   H     h       h      h     f     c     `    
+ ]         ÿ           
+ 	 ! "      Ù     q¼
+Y„OY¬OY¶OYLOY ÜOY OL¼
+YŽOY°OY`OYjOY  lOY ÐOM>² #» )Y+· -+,¸ 0¶ 2¶ 6¶ :±    
+   & 	   $ ) % R & U ' X ( a ) j ( m ' p * 
+   *    q ? @   ) H    R     U      A    B

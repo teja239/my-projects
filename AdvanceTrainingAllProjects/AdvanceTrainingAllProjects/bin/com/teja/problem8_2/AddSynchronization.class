@@ -1,0 +1,13 @@
+Êþº¾   4 1   'com/teja/problem8_2/AddSynchronization   java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this )Lcom/madhu/problem8_2/AddSynchronization; main ([Ljava/lang/String;)V   com/madhu/problem8_2/Storage
+  	   com/madhu/problem8_2/Counter
+     !(Lcom/madhu/problem8_2/Storage;)V   com/madhu/problem8_2/Printer
+     java/lang/Thread   Counter
+     ! )(Ljava/lang/Runnable;Ljava/lang/String;)V
+  # $  start &  Printer args [Ljava/lang/String; st Lcom/madhu/problem8_2/Storage; c Lcom/madhu/problem8_2/Counter; p Lcom/madhu/problem8_2/Printer; 
+SourceFile AddSynchronization.java !                /     *· ±    
+       L 
+         
+   	        ‘     5» Y· L» Y+· M» Y+· N» Y,· ¶ "» Y-%· ¶ "±    
+       N  O  P  Q ' R 4 S 
+   *    5 ' (    - ) *   $ + ,    - .   /    0

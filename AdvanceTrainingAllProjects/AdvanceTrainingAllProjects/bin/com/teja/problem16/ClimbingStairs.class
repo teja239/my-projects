@@ -1,0 +1,19 @@
+Êþº¾   4 :   "com/teja/problem16/ClimbingStairs   java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this $Lcom/madhu/problem16/ClimbingStairs; fib (I)I
+     n I 
+StackMapTable 	countWays s main ([Ljava/lang/String;)V	     java/lang/System   out Ljava/io/PrintStream;    java/lang/StringBuilder " Number of ways = 
+  $  % (Ljava/lang/String;)V
+  '  
+  ) * + append (I)Ljava/lang/StringBuilder;
+  - . / toString ()Ljava/lang/String;
+ 1 3  2 java/io/PrintStream 4 %  println args [Ljava/lang/String; s1 
+SourceFile ClimbingStairs.java !                /     *· ±    
+        
+         
+           P     £ ¬d¸ d¸ `¬    
+              
+                          1      `¸ ¬    
+        
+             	        …     7<² » Y!· #¸ &¶ (¶ ,¶ 0=² » Y!· #¸ &¶ (¶ ,¶ 0±    
+              6  
+        7 5 6    5      7    8    9
