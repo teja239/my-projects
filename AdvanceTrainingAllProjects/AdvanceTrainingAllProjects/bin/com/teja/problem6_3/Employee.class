@@ -1,14 +1,0 @@
-Êþº¾   4 &   com/teja/problem6_3/Employee   java/lang/Object empid I ename Ljava/lang/String;  address <init> ((ILjava/lang/String;Ljava/lang/String;)V Code
-   
-  ()V	    	     	   	  LineNumberTable LocalVariableTable this Lcom/madhu/problem6_3/Employee; getEmpid ()I setEmpid (I)V getEname ()Ljava/lang/String; setEname (Ljava/lang/String;)V 
-getAddress 
-setAddress 
-SourceFile 
-Employee.java !                  	       
- 
-     l     *· 
-*µ *,µ *-µ ±               	   	  
-    *                         	          /     *´ ¬                               >     *µ ±       
-                                /     *´ °                           !     >     *+µ ±       
-                           "      /     *´ °                         # !     >     *+µ ±       
-                      	    $    %

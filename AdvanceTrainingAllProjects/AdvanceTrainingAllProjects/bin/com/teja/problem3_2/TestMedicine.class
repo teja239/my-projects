@@ -1,22 +1,0 @@
-Êþº¾   4 D   !com/teja/problem3_2/TestMedicine   java/lang/Object <init> ()V Code
-  	   LineNumberTable LocalVariableTable this #Lcom/madhu/problem3_2/TestMedicine; main ([Ljava/lang/String;)V   com/madhu/problem3_2/Medicine
-     java/lang/Math   random ()D@      	     java/lang/System   out Ljava/io/PrintStream;
- ! #  " java/io/PrintStream $ %  println (I)V
-  	  ( com/madhu/problem3_2/Tablet
- ' 	
-  + ,  displayLabel  . com/madhu/problem3_2/Syrup
- - 	  1 com/madhu/problem3_2/Ointment
- 0 	 4 Invalid Choice
- ! 6 $ 7 (Ljava/lang/String;)V args [Ljava/lang/String; m  [Lcom/madhu/problem3_2/Medicine; i D j I 
-StackMapTable  ; 
-SourceFile TestMedicine.java !                /     *· ±    
-        
-         
-   	       Z     ª
-½ L¸  kI(Ž6² ¶  ª      …            ?   b+» Y· &S+» 'Y· )S+2¶ *+2¶ *§ Q+» Y· &S+» -Y· /S+2¶ *+2¶ *§ .+ » Y· &S+» 0Y· 2S+ 2¶ *+2¶ *§ 
-² 3¶ 5±    
-   Z         	  
-  
- 8 
- B  L  R  X  [  e  o  u  {  ~  ˆ  ’  ˜  ž  ¡  ©  
-   *    ª 8 9    ¤ : ;   œ < =   ˜ > ?  @    þ 8  A"""   B    C

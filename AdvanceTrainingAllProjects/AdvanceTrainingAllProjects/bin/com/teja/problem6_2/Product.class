@@ -1,26 +1,0 @@
- ˛∫æ   4 i   com/teja/problem6_2/Product   java/lang/Object <init> ()V Code
-  	   LineNumberTable LocalVariableTable this Lcom/madhu/problem6_2/Product; main ([Ljava/lang/String;)V   java/util/Scanner	     java/lang/System   in Ljava/io/InputStream;
-     (Ljava/io/InputStream;)V   java/util/Hashtable
-  		     ! out Ljava/io/PrintStream; # -Enter the no of products do you want to add: 
- % '  & java/io/PrintStream ( )  println (Ljava/lang/String;)V
-  + , -  nextInt ()I /  Enter the Product id and name 
-  1 2 3 next ()Ljava/lang/String;
-  5 6 7 put 8(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 9  The product list is : 
- % ; ( < (Ljava/lang/Object;)V > % Enter the product id to be removed :
-  @ A B remove &(Ljava/lang/Object;)Ljava/lang/Object; D  Item removed  F  The Product list is :
-  H I 3 toString K ' Enter the product id to be searched : 
-  M N O 
-containsKey (Ljava/lang/Object;)Z
-  Q R B get  T java/lang/String V  Do not exists  args [Ljava/lang/String; sc Ljava/util/Scanner; hm Ljava/util/Hashtable; n I i id Ljava/lang/String; sid LocalVariableTypeTable ;Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/String;>; 
-StackMapTable  X 
-SourceFile Product.java !                /     *∑ ±    
-        
-         
-   	       ≥     ¥ª Y≤ ∑ Lª Y∑ M≤ "∂ $+∂ *>≤ .∂ $6ß ,+∂ 0+∂ 0∂ 4WÑ°ˇÌ≤ 8∂ $≤ ,∂ :≤ =∂ $+∂ 0:,∂ ?W≤ C∂ $≤ E∂ $≤ ,∂ G∂ $≤ J∂ $+∂ 0:,∂ Lô ≤ ,∂ P¿ S∂ $ß 
-≤ U∂ $±    
-   Z      
-   	  
-   
- (  .  ;  D  L  S  [  a  h  p  x  Ç  ä  ê  ô  ´ ! ≥ " 
-   H     ¥ W X   
- © Y Z   ° [ \    î ] ^  +  _ ^  a S ` a  ê $ b a  c      ° [ d  e   - ˇ .   f      ˇ l   f      S  S     g    h

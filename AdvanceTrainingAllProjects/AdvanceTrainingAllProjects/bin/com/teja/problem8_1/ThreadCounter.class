@@ -1,12 +1,0 @@
-Êþº¾   4    "com/teja/problem8_1/ThreadCounter   java/lang/Object <init> ()V Code
-  	   LineNumberTable LocalVariableTable this $Lcom/madhu/problem8_1/ThreadCounter; main ([Ljava/lang/String;)V   com/madhu/problem8_1/Counter
-     (I)V
-     run args [Ljava/lang/String;  counter Lcom/madhu/problem8_1/Counter; 
-SourceFile ThreadCounter.java                   /     *· ±    
-       P 
-         
-   	        K     » Y· L+¶ ±    
-       X 
- Z  \ 
-            
-          

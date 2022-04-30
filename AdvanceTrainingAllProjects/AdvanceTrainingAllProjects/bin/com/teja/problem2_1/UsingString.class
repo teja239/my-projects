@@ -1,29 +1,0 @@
-Êþº¾   4 c    com/teja/problem2_1/UsingString   java/lang/Object <init> ()V Code
-  	   LineNumberTable LocalVariableTable this "Lcom/madhu/problem2_1/UsingString; main ([Ljava/lang/String;)V   java/util/Scanner	     java/lang/System   in Ljava/io/InputStream;
-     (Ljava/io/InputStream;)V	     out Ljava/io/PrintStream;   Enter the String: 
- " $  # java/io/PrintStream % &  println (Ljava/lang/String;)V
-  ( ) * nextLine ()Ljava/lang/String;
- , .  - java/lang/String / 0 length ()I
- " 2 % 3 (I)V
- , 5 6 * 
-toUpperCase  8 java/lang/StringBuffer
- 7 	
- 7 ; < = append ,(Ljava/lang/String;)Ljava/lang/StringBuffer;
- 7 ? @ A  reverse ()Ljava/lang/StringBuffer;
- , C D E 
-contentEquals (Ljava/lang/StringBuffer;)Z  G java/lang/StringBuilder I Sting 
- F K  &
- F M < N -(Ljava/lang/String;)Ljava/lang/StringBuilder; P  is a Palindrome.
- F R S * toString U  is Not a Palindrome. args [Ljava/lang/String; sc Ljava/util/Scanner; str Ljava/lang/String; rev sb Ljava/lang/StringBuffer; 
-StackMapTable  W 
-SourceFile UsingString.java !                /     *· ±    
-        
-         
-   	       ,     ‡» Y² · L² ¶ !+¶ 'M,N² ,¶ +¶ 1² ,¶ 4¶ !» 7Y· 9:-¶ :W¶ >W,¶ B™ !² » FYH· J,¶ LO¶ L¶ Q¶ !§ ² » FYH· J,¶ LT¶ L¶ Q¶ !±    
-   :      
-   	  
-  
- $  . 
- 7  >  D  M  h  k  †  
-   4    ‡ V W   
- | X Y   o Z [   m \ [  7 P ] ^  _    ÿ k   `    ,  ,  7    a    b

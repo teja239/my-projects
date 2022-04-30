@@ -1,25 +1,0 @@
-Êþº¾   4 T   com/teja/problem2_2/Main   java/lang/Object <init> ()V Code
-  	   LineNumberTable LocalVariableTable this Lcom/madhu/problem2_2/Main; main ([Ljava/lang/String;)V   java/util/Scanner	     java/lang/System   in Ljava/io/InputStream;
-     (Ljava/io/InputStream;)V	     out Ljava/io/PrintStream;   Enter First Number: 
- " $  # java/io/PrintStream % &  println (Ljava/lang/String;)V
-  ( ) *  nextInt ()I , Enter Second Number:   . java/lang/StringBuilder
- 0 2  1 java/lang/String 3 4  valueOf (I)Ljava/lang/String;
- - 6  & 8  
- - : ; < append -(Ljava/lang/String;)Ljava/lang/StringBuilder;
- - > ; ? (I)Ljava/lang/StringBuilder;
- - A B C toString ()Ljava/lang/String;
- " E F & print args [Ljava/lang/String; sc Ljava/util/Scanner; a I b c i 
-StackMapTable  H 
-SourceFile 	Main.java !                /     *· ±    
-        
-         
-   	       "     |» Y² · L² ¶ !+¶ '=² +¶ !+¶ '>² » -Y¸ /· 57¶ 9¶ =7¶ 9¶ @¶ D6§ *`6=>² » -Y¸ /· 57¶ 9¶ @¶ D„
-¤ÿÕ±    
-   6 
-     
-   	  
-   
- % 
- G  M  R  T  W  q  {  
-   >    | G H   
- q I J   d K L  % W M L  R " N L  J 1 O L  P    ÿ M   Q     &  R    S

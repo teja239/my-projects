@@ -1,35 +1,0 @@
-Êþº¾   4 J   com/teja/problem1_4/Rectangle   java/lang/Object length F width <init> ()V Code
-    		    	      LineNumberTable LocalVariableTable this  Lcom/madhu/problem1_4/Rectangle; 	perimeter ()F area 	setValues (FF)VA    
-StackMapTable main ([Ljava/lang/String;)V   java/util/Scanner	 ! #  " java/lang/System $ % in Ljava/io/InputStream;
-  '  ( (Ljava/io/InputStream;)V
-  	 ! + , - out Ljava/io/PrintStream; / length :
- 1 3  2 java/io/PrintStream 4 5 print (Ljava/lang/String;)V
-  7 8  	nextFloat :  width :
-  <  
-  >  
-  @  
-  B    args [Ljava/lang/String; sc Ljava/util/Scanner; obj 
-SourceFile Rectangle.java !                     	  
-   E     *· 
-*µ 
-*µ ±              	 	  
-                 
-   6     *´ 
-*´ b
-j®                            
-   4     
-*´ 
-*´ j®                   
-         
-   }     %#
-•ž #–œ *#µ 
-$
-•ž $–œ *$µ ±            
-      $          %       %      %              
-   /     *´ 
-®           "                  
-   /     *´ ®           '             	    
-   ¿     E» Y²  · &L» Y· )M² *.¶ 0+¶ 6F² *9¶ 0+¶ 68,¶ ;W,%¶ =,¶ ?W,¶ AW±       . 
-   + 
- ,  -  .   / ( 0 . 2 3 3 : 4 ? 6 D 7    4    E C D   
- : E F   2 G     %    .       H    I

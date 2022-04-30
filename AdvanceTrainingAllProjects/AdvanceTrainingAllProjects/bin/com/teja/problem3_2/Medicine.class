@@ -1,11 +1,0 @@
-Êþº¾   4 !   com/teja/problem3_2/Medicine   java/lang/Object <init> ()V Code
-  	   LineNumberTable LocalVariableTable this Lcom/madhu/problem3_2/Medicine; displayLabel	     java/lang/System   out Ljava/io/PrintStream;  Company : Flex Pharma
-     java/io/PrintStream    println (Ljava/lang/String;)V  Address : Pune 
-SourceFile 
-Medicine.java !                /     *· ±    
-        
-         
-           C     ² ¶ ² ¶ ±    
-             
-         
-         

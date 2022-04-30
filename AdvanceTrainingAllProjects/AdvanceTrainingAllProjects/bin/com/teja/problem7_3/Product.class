@@ -1,34 +1,0 @@
-Êþº¾   4 L   com/teja/problem7_3/Product   java/lang/Object   java/io/Serializable m_prodID I 
-m_prodName Ljava/lang/String; <init> ()V Code
-   
- 	        	   	 
- LineNumberTable LocalVariableTable this Lcom/madhu/problem7_3/Product; (ILjava/lang/String;)V newID  newName GetID ()I  GetName ()Ljava/lang/String; SetID (I)V  SetName (Ljava/lang/String;)V 
-PrintValues	 ' )  ( java/lang/System * + out Ljava/io/PrintStream;  - java/lang/StringBuilder
- / 1  0 java/lang/String 2 3  valueOf (I)Ljava/lang/String;
- , 5 
- $ 7  
- , 9 : ; append -(Ljava/lang/String;)Ljava/lang/StringBuilder;
- , = >   toString
- @ B  A java/io/PrintStream C $  println equals (Ljava/lang/Object;)Z otherProduct Ljava/lang/Object; p 
-StackMapTable 
-SourceFile 
-Products.java               	 
-      
-   
-   F     *· *µ *µ ±           
-   	 
-                 
-   
-   Y     *· *µ *,µ ±              	                           
-      
-   /     *´ ¬                             
-   /     *´ °                         ! "  
-   >     *µ ±       
-                          # $  
-   >     *+µ ±       
-       !                 
-   %   
-   R     $² &» ,Y*´ ¸ .· 46¶ 8*´ ¶ 8¶ <¶ ?±       
-    % # &        $      D E  
-   d     +À M*´ ,´   ¬¬       
-    +  ,                 F G    H   I    ü     J    K
